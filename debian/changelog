@@ -1,10 +1,16 @@
+xampp-controller (1.0.2) trusty; urgency=low
+
+  * Fix build error
+
+ -- Daniel J Griffiths <dgriffiths@section214.com>  Sat, 30 Aug 2014 14:04:00 +0600
+
 xampp-controller (1.0.1) trusty; urgency=low
 
   * Still learning...
 
  -- Daniel J Griffiths <dgriffiths@section214.com>  Sat, 30 Aug 2014 14:04:00 +0600
 
- xampp-controller (1.0.0) trusty; urgency=low
+xampp-controller (1.0.0) trusty; urgency=low
 
   * Initial release
 
