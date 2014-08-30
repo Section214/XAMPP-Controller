@@ -9,7 +9,7 @@ setup(
     author = "Daniel J Griffiths",
     author_email = "dgriffiths@section214.com",
     url = "http://section214.com",
-    license = "GPL"
+    license = "GPL",
     package_dir = {"xampp-controller" : "src/xampp-controller"},
     packages = ["xampp-controller"],
     package_data = {"xampp-controller" : [""]},
