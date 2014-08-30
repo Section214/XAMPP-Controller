@@ -1,0 +1,14 @@
+Source: xampp-controller
+Section: devel
+Priority: optional
+Maintainer: Daniel J Griffiths <dgriffiths@section214.com>
+Build-Depends: debhelper (>=7), python-support (>=0.8.7), python
+XS-Python-Version: >=2.6
+Standards-Version: 3.8.0
+Homepage: http://section214.com
+
+Package: xampp-controller
+Architecture: all
+Depends: python-appindicator (>=0.0.19), python-gtk2 (>=2.17.0)
+XB-Python-Version: ${python:Versions}
+Description: XAMPP Controller is a simple indicator applet to control XAMPP
