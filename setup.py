@@ -10,16 +10,13 @@ setup(
     author_email = "dgriffiths@section214.com",
     url = "http://section214.com",
     license = "GPL",
-    package_dir = {"xampp-controller" : "src/xampp-controller"},
-    packages = ["xampp-controller"],
-    package_data = {"xampp-controller" : [""]},
     data_files = [
-        ("share/applications/xampp-controller", [
+        ("../share/xampp-controller", [
             "xampp-controller.py",
             "xampp-controller.svg",
             "about-icon.png"
         ]),
-        ("bin", ["xampp-controller"]),
+        ("../bin", ["xampp-controller"]),
     ],
     scripts = ["xampp-controller"],
     long_description = """XAMPP Controller provides a simple indicator
