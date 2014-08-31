@@ -1,10 +1,16 @@
+xampp-controller (1.0.4) trusty; urgency=low
+
+  * Why is it so much harder to package an app than write it...
+
+ -- Daniel J Griffiths <dgriffiths@section214.com>  Sat, 30 Aug 2014 14:04:00 +0600
+
 xampp-controller (1.0.3) trusty; urgency=low
 
   * Fix install location
 
  -- Daniel J Griffiths <dgriffiths@section214.com>  Sat, 30 Aug 2014 14:04:00 +0600
 
- xampp-controller (1.0.2) trusty; urgency=low
+xampp-controller (1.0.2) trusty; urgency=low
 
   * Fix build error
 
