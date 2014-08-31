@@ -11,12 +11,12 @@ setup(
     url = "http://section214.com",
     license = "GPL",
     data_files = [
-        ("../share/xampp-controller", [
+        ("../usr/share/xampp-controller", [
             "xampp-controller.py",
             "xampp-controller.svg",
             "about-icon.png"
         ]),
-        ("../bin", ["xampp-controller"]),
+        ("../usr/bin", ["xampp-controller"]),
     ],
     scripts = ["xampp-controller"],
     long_description = """XAMPP Controller provides a simple indicator
