@@ -61,7 +61,7 @@ def show_help_dlg(msg):
 
     # Override dialog icon
     logo = gtk.Image()
-    logo.set_from_file('about-icon.png')
+    logo.set_from_file(sys.path[0] + '/about-icon.png')
     logo.show()
     md.set_image(logo)
 
