@@ -1,3 +1,10 @@
+xampp-controller (1.0.5) trusty; urgency=low
+
+  * Fixed about image reference
+  * Added option refresh menu
+
+ -- Daniel J Griffiths <dgriffiths@section214.com>  Sat, 30 Aug 2014 14:04:00 +0600
+
 xampp-controller (1.0.4) trusty; urgency=low
 
   * Why is it so much harder to package an app than write it...

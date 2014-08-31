@@ -31,7 +31,7 @@ import re
 import commands
 import webbrowser
 
-_VERSION = "1.0.4"
+_VERSION = "1.0.5"
 
 _ABOUT_TXT = """A simple Ubuntu app indicator for XAMPP.
 
@@ -45,6 +45,9 @@ def menuitem_response(w, item):
         show_help_dlg(_ABOUT_TXT)
     elif item == '_quit':
         sys.exit(0);
+    elif item == '_refresh':
+        newmenu = build_menu()
+        ind.set_menu(newmenu)
     elif item == 'folder':
         pass
     else:
@@ -172,10 +175,11 @@ def build_menu():
 
     add_separator(menu)
 
-    add_menu_item(menu, 'About', '_about')
+    add_menu_item(menu, 'Refresh Menu', '_refresh')
 
     add_separator(menu)
 
+    add_menu_item(menu, 'About', '_about')
     add_menu_item(menu, 'Quit', '_quit')
 
     return menu
