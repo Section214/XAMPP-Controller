@@ -31,7 +31,7 @@ import re
 import commands
 import webbrowser
 
-_VERSION = "1.0.2"
+_VERSION = "1.0.3"
 
 _ABOUT_TXT = """A simple Ubuntu app indicator for XAMPP.
 
